@@ -1,5 +1,5 @@
 # movie-plots-by-genre
-Movie plots by genre tutorial at PyData Berlin 20 May 2016 . 
+Movie plots by genre tutorial at PyData Berlin 20 May 2016. 
 
 IPython notebook coming soon.
 
