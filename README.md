@@ -14,3 +14,13 @@ The requirements are:
 - matplotlib
 - nltk
 - pyemd
+
+__If you are short on bandwidth__ then you will be able to follow most of the tutorial just with these libraries:
+
+- Python 3
+- cython
+- gensim
+- sklearn
+- pandas
+- matplotlib
+- nltk
