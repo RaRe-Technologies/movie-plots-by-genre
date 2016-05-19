@@ -7,20 +7,9 @@ The requirements are:
 
 - Python 3
 - Google News pre-trained word2vec model (1.5 Gb) from [here]( https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing)
-- cython
-- gensim
-- sklearn
-- pandas
-- matplotlib
-- nltk
-- pyemd
+- pip install cython gensim sklearn pandas matplotlib nltk pyemd
 
 __If you are short on bandwidth__ then you will be able to follow most of the tutorial just with these libraries:
 
 - Python 3
-- cython
-- gensim
-- sklearn
-- pandas
-- matplotlib
-- nltk
+- pip install cython gensim sklearn pandas matplotlib nltk pyemd
