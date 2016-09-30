@@ -3,12 +3,38 @@ Movie plots by genre tutorial at PyData Berlin 20 May 2016.
 
 See slides for the narrative.
 
-The requirements are:
+## Setting Up
+Make sure you have Python 3.
 
-- Python 3
-- Google News pre-trained word2vec model (1.5 Gb) from [here]( https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing)
-- pip3 install cython gensim sklearn pandas matplotlib nltk pyemd jupyter
--  python -m nltk.downloader punkt
+- Clone this repository
+```
+git clone https://github.com/RaRe-Technologies/movie-plots-by-genre.git
+```
+if you don't have git you can also download a zip of this repo https://github.com/RaRe-Technologies/movie-plots-by-genre/archive/master.zip
+
+- Install virtualenv
+```
+(sudo) pip install virtualenv
+```
+- Create a virtual env and install all the requirements.
+```
+cd movie-plots-by-genre/
+virtualenv gensim # if you have both python2 and python3 then use virtualenv -p python3 gensim
+source gensim/bin/activate
+pip3 install cython gensim sklearn pandas matplotlib nltk pyemd jupyter
+```
+
+- Download Google News pre-trained word2vec model (1.5 Gb) from [here]( https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing)
+
+-  Download nltk data
+```
+python -m nltk.downloader punkt
+```
+
+- Fire up a jupyter notebook
+```
+jupyter notebook
+```
 
 On OSX you might want to download pyemd from github and install it via `python3 setup.py install`.
 
