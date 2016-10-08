@@ -23,6 +23,7 @@ virtualenv gensim # if you have both python2 and python3 then use virtualenv -p 
 source gensim/bin/activate
 pip3 install cython gensim sklearn pandas matplotlib nltk pyemd jupyter
 ```
+__NOTE__:On OSX you might want to download [pyemd from github](https://github.com/wmayner/pyemd) and install it via `python3 setup.py install`.
 
 - Download Google News pre-trained word2vec model (1.5 Gb) from [here]( https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing)
 
@@ -36,7 +37,6 @@ python -m nltk.downloader punkt
 jupyter notebook
 ```
 
-On OSX you might want to download pyemd from github and install it via `python3 setup.py install`.
 
 __If you are short on bandwidth__ then you will be able to follow most of the tutorial just with these libraries:
 
